@@ -1,0 +1,19 @@
+
+dataset length: 0, dataset class: cat
+Traceback (most recent call last):
+  File "/home/rutvik-joshi/academics/10623/hw2/handout/main.py", line 52, in <module>
+    train_diffusion(**vars(args))
+  File "/home/rutvik-joshi/academics/10623/hw2/handout/utils.py", line 102, in train_diffusion
+    _, _, trainer = setup_diffusion(train_steps=train_steps,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rutvik-joshi/academics/10623/hw2/handout/utils.py", line 49, in setup_diffusion
+    trainer = Trainer(
+              ^^^^^^^^
+  File "/home/rutvik-joshi/academics/10623/hw2/handout/trainer.py", line 109, in __init__
+    data.DataLoader(
+  File "/home/rutvik-joshi/anaconda3/envs/GenAI_pytorch/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 350, in __init__
+    sampler = RandomSampler(dataset, generator=generator)  # type: ignore[arg-type]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rutvik-joshi/anaconda3/envs/GenAI_pytorch/lib/python3.11/site-packages/torch/utils/data/sampler.py", line 143, in __init__
+    raise ValueError(f"num_samples should be a positive integer value, but got num_samples={self.num_samples}")
+ValueError: num_samples should be a positive integer value, but got num_samples=0

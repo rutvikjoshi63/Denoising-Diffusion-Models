@@ -1,0 +1,82 @@
+{
+    "os": "Linux-6.8.0-45-generic-x86_64-with-glibc2.39",
+    "python": "3.11.9",
+    "heartbeatAt": "2024-10-06T21:51:09.584017",
+    "startedAt": "2024-10-06T21:51:09.275155",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/rutvik-joshi/academics/10623/hw2/handout/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "host": "rutvik-joshi-OMEN-Laptop-15-ek0xxx",
+    "username": "rutvik-joshi",
+    "executable": "/home/rutvik-joshi/anaconda3/envs/GenAI_pytorch/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1.908125,
+        "min": 800.0,
+        "max": 4500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3.299,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3.307,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3.303,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3.3,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3.299,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3.305,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3.215,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4500.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 456.8668975830078,
+            "used": 86.36071395874023
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 23.242355346679688
+    }
+}
